@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --title-text-color: #212121;
   --primer-text-color: #757575;
   --accent-color: #2196f3;
@@ -40,8 +40,6 @@ ul {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-
-  /*outline: 2px solid blue; */
 }
 
 .section {
@@ -60,7 +58,7 @@ ul {
   clip-path: inset(50%);
   margin: -1px;
 }
-
+ */
 /*---------------header---------------*/
 
 .header__cointainer {
@@ -71,33 +69,33 @@ ul {
   border-bottom: 1px solid #ececec;
 }
 
-.logo{
+/* .logo{
   text-decoration: none;
-}
+} */
 
-.logo--header {
+/* .logo--header {
   margin-top: 24px;
   margin-bottom: 25px;
   margin-right: 93px;
-}
+} */
 
-.logo__web {
+/* .logo__web {
   color: var(--accent-color);
 
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
+} */
 
-.logo__studio {
+/* .logo__studio {
   color: #000000;
 
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
+} */
 
 /*-------------сайтовая навигация-------------*/
 
