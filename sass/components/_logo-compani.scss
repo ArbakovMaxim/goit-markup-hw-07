@@ -1,20 +1,13 @@
 .logo{
     text-decoration: none;
-  }
-.logo__web {
-    color: var(--accent-color);
-    font-family:$text-logo;
-    font-size: $text-logo-size;
-    line-height: $text-logo-height;
-    letter-spacing: $text-logo-spacing;
-    
+  
+  &__web {
+    color: $accent-color;
+    @extend %logo-text;
   }
 
-.logo__studio {
+  &__studio {
     color: #000000;
-  
-    font-family:$text-logo;
-    font-size: $text-logo-size;
-    line-height: $text-logo-height;
-    letter-spacing: $text-logo-spacing;
+    @extend %logo-text;
   }
+}
