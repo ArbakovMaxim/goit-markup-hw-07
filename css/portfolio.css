@@ -286,6 +286,16 @@ ul {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.project__item:hover .portfolio-img::before,
+.project__item:focus .portfolio-img::before {
+  transform: translateY(0%);
+}
+
+.project__item:focus .portfolio-img__title,
+.project__item:hover .portfolio-img__title {
+  transform: translate(-50%, 0);
+}
+
 .project__link {
   text-decoration: none;
 }
@@ -359,16 +369,6 @@ ul {
   letter-spacing: 0.03em;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #ffffff;
-}
-
-.project__item:hover .portfolio-img::before,
-.project__item:focus .portfolio-img::before {
-  transform: translateY(0%);
-}
-
-.project__item:focus .portfolio-img__title,
-.project__item:hover .portfolio-img__title {
-  transform: translate(-50%, 0);
 }
 
 .footer {

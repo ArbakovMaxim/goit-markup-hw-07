@@ -11,9 +11,9 @@
 
     &__item {
         position: relative;
-      }
+      
 
-    &__item::after {
+      &::after {
         content: "";
         display: block;
         position: absolute;
@@ -22,6 +22,7 @@
         height: 70px;
         background-color: rgba(47, 48, 58, 0.8);
       }
+    }
 
     &__text {
         position: absolute;

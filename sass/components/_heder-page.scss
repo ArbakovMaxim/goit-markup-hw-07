@@ -22,12 +22,13 @@
     padding-bottom: 32px;
   
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  
 
-  &__link:hover,
-  &__link:focus {
+      &:hover,
+      &:focus {
     color: $focys-hover-color;
   }
+}
 
   &__nav {
     margin-right: auto;
@@ -49,9 +50,9 @@
   &__portfolio {
     position: relative;
     color: $accent-color;
-  }
+  
 
-  &__portfolio::after {
+      &::after {
     position: absolute;
     bottom: 0;
     content: "";
@@ -60,13 +61,14 @@
     border-radius: 2px;
     background-color: $accent-color;
   }
+}
 
   &__studio {
     position: relative;
     color:$accent-color;
-  }
+  
 
-  &__studio::after {
+     &::after {
     position: absolute;
     bottom: -1px;
     content: "";
@@ -75,6 +77,7 @@
     border-radius: 2px;
     background-color: $focys-hover-color;
   }
+}
 
   &__contact {
     display: flex;
@@ -88,13 +91,15 @@
   
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  
 
-  &__link--contakt:hover,
-  &__link--contakt:focus {
+      &:hover,
+      &:focus {
     color: $focys-hover-color;
     fill: $focys-hover-color;
   }
+
+}
 
   &__icon {
     width: 16px;
